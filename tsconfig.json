@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "incremental": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["packages/**/*.ts"],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/core-domain" },
+    { "path": "./packages/pipeline" }
+  ]
+}
